@@ -14,6 +14,7 @@ export default function AboutMrPhillips() {
                 fill
                 className="object-cover rounded-2xl shadow-2xl"
                 priority
+                unoptimized
               />
             </div>
             <div className="prose prose-lg max-w-none">
