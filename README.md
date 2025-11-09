@@ -1,6 +1,6 @@
-# Steven Phillips, CPA Website
+# Stephen D. Phillips, CPA Website
 
-A modern, professional website for Steven Phillips, CPA built with Next.js, TypeScript, and Tailwind CSS.
+A modern, professional website for Stephen D. Phillips, CPA built with Next.js, TypeScript, and Tailwind CSS.
 
 ## Getting Started
 
@@ -54,4 +54,5 @@ vercel
 - **AWS Amplify**: Connect GitHub repo and auto-deploy
 - **Railway**: Connect GitHub repo and auto-deploy
 - **Render**: Connect GitHub repo and auto-deploy
+
 

@@ -1,48 +1,72 @@
 export default function Contact() {
   return (
-    <section id="contact" className="bg-navy-900 text-white section-padding">
-      <div className="container-custom">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="heading-secondary text-white text-center mb-12">Contact Us</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="bg-navy-800 p-8 rounded-xl">
-              <h3 className="text-xl font-semibold mb-4">Address</h3>
-              <p className="text-gray-300">San Diego, CA</p>
-            </div>
+    <section id="contact" className="relative overflow-hidden py-24">
+      <div className="absolute inset-0">
+        <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-gold-400/50 to-transparent" />
+        <div className="absolute bottom-0 right-24 h-72 w-72 rounded-full bg-gold-300/15 blur-[130px]" />
+      </div>
 
-            <div className="bg-navy-800 p-8 rounded-xl">
-              <h3 className="text-xl font-semibold mb-4">Email</h3>
-              <a
-                href="mailto:stevephillips825@gmail.com"
-                className="text-gold-400 hover:text-gold-300 transition-colors"
-              >
-                stevephillips825@gmail.com
-              </a>
-            </div>
+      <div className="container-custom relative">
+        <div className="mx-auto max-w-3xl text-center">
+          <p className="luxeyebrow">Private Client Access</p>
+          <h2 className="mt-4 text-3xl font-semibold text-gold-100 md:text-5xl">
+            Begin Your Confidential Consultation
+          </h2>
+          <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-slate-100/80">
+            Connect directly with Stephen D. Phillips, CPA to discuss bespoke accounting, tax counsel, and advisory support.
+            Responses are prioritized within one business day.
+          </p>
+        </div>
 
-            <div className="bg-navy-800 p-8 rounded-xl">
-              <h3 className="text-xl font-semibold mb-4">Phone</h3>
-              <a
-                href="tel:703-297-6370"
-                className="text-gold-400 hover:text-gold-300 transition-colors"
-              >
-                (703) 297-6370
-              </a>
-            </div>
-
-            <div className="bg-navy-800 p-8 rounded-xl">
-              <h3 className="text-xl font-semibold mb-4">Have a Question?</h3>
-              <a
-                href="/book-appointment"
-                className="inline-block mt-2 text-gold-400 hover:text-gold-300 transition-colors font-medium"
-              >
-                Get In Touch →
-              </a>
-            </div>
-          </div>
+        <div className="mt-16 grid gap-8 md:grid-cols-2">
+          {[
+            {
+              label: 'Studio Location',
+              value: 'San Diego, CA',
+              href: null,
+              hint: 'Available for private appointments upon request',
+            },
+            {
+              label: 'Direct Line',
+              value: '(703) 297-6370',
+              href: 'tel:703-297-6370',
+              hint: 'Monday – Friday, 9am to 6pm PST',
+            },
+            {
+              label: 'Client Concierge',
+              value: 'stevephillips825@gmail.com',
+              href: 'mailto:stevephillips825@gmail.com',
+              hint: 'Secure document exchange arranged after introduction',
+            },
+            {
+              label: 'Schedule a Consultation',
+              value: 'Book An Appointment →',
+              href: '/book-appointment',
+              hint: 'Virtual & in-person consultations tailored to you',
+            },
+          ].map((item) => (
+            <article
+              key={item.label}
+              className="rounded-3xl border border-white/10 bg-white/5 p-8 shadow-[0_24px_70px_rgba(0,0,0,0.35)] transition-all duration-300 hover:-translate-y-1 hover:border-gold-300/60"
+            >
+              <p className="luxeyebrow">{item.label}</p>
+              {item.href ? (
+                <a
+                  href={item.href}
+                  className="mt-4 block font-serif text-2xl text-gold-100 transition-colors hover:text-white"
+                >
+                  {item.value}
+                </a>
+              ) : (
+                <p className="mt-4 font-serif text-2xl text-gold-100">{item.value}</p>
+              )}
+              <p className="mt-6 text-sm uppercase tracking-[0.3em] text-white/50">{item.hint}</p>
+            </article>
+          ))}
         </div>
       </div>
     </section>
   );
 }
+
 

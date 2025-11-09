@@ -48,7 +48,7 @@ export default function BookAppointment() {
           <div className="max-w-3xl mx-auto">
             <h1 className="heading-primary text-center mb-4">Book Appointment</h1>
             <p className="text-center text-body mb-12">
-              Schedule a consultation with Steven Phillips, CPA. Fill out the form below and we&apos;ll get back to you soon.
+              Schedule a consultation with Stephen D. Phillips, CPA. Fill out the form below and we&apos;ll get back to you soon.
             </p>
 
             {submitted ? (

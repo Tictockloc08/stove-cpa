@@ -1,20 +1,52 @@
 export default function AboutFirm() {
   return (
-    <section id="about" className="bg-white section-padding">
-      <div className="container-custom">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="heading-secondary text-center mb-12">About Our Firm</h2>
-          <div className="prose prose-lg max-w-none text-body">
-            <p className="mb-6">
-              Steven Phillips CPA is here to serve your business and individual tax needs. I offer remote tax services for clients with the option to meet in person by appointment. My focus is on individual tax returns, self-employed professionals, real estate developers and investors, start-up businesses and businesses with fewer than 100 employees.
-            </p>
-            <p className="mb-6">
-              My goal is to provide each of my clients with the best tax services possible, from the relatively simple tax scenarios to the highly complex. I pride myself on my ability to offer high quality and affordable tax services. I am a trusted tax advisor and I strongly believe that your success is my success.
-            </p>
-          </div>
+    <section id="about" className="relative overflow-hidden py-24">
+      <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-gold-500/60 to-transparent" />
+      <div className="absolute inset-0">
+        <div className="absolute left-1/2 top-0 h-72 w-72 -translate-x-1/2 rounded-full bg-gold-400/10 blur-[120px]" />
+      </div>
+
+      <div className="container-custom relative">
+        <div className="mx-auto max-w-5xl text-center">
+          <p className="luxeyebrow">A Signature Practice</p>
+          <h2 className="mt-4 text-3xl font-semibold text-gold-100 md:text-5xl">
+            Tailored Counsel. Elevated Confidence.
+          </h2>
+          <p className="mx-auto mt-6 max-w-3xl text-lg leading-relaxed text-slate-100/80">
+            From high-net-worth individuals to emerging enterprises, Stephen D. Phillips, CPA provides concierge tax and
+            accounting services that prioritize clarity, responsiveness, and lasting partnerships.
+          </p>
+        </div>
+
+        <div className="mt-16 grid gap-8 md:grid-cols-3">
+          {[
+            {
+              title: 'Remote-First & Discreet',
+              copy: 'Virtual consultations, encrypted document handling, and secure client portals keep your financial story protected.',
+            },
+            {
+              title: 'Industry Depth',
+              copy: 'Specialized insight for real estate, start-ups, professional services, and closely held businesses navigating complex tax climates.',
+            },
+            {
+              title: 'Outcome Focused',
+              copy: 'Proactive planning and strategic reviews designed to preserve capital, mitigate risk, and unlock growth.',
+            },
+          ].map((item) => (
+            <article
+              key={item.title}
+              className="group rounded-3xl border border-white/10 bg-white/5 p-8 text-left transition-all duration-300 hover:-translate-y-2 hover:border-gold-300/50 hover:bg-gold-500/10"
+            >
+              <h3 className="font-serif text-2xl text-gold-100">{item.title}</h3>
+              <p className="mt-4 text-sm uppercase tracking-[0.3em] text-white/60">Confidence · Clarity · Continuity</p>
+              <p className="mt-6 text-base leading-relaxed text-slate-100/85">{item.copy}</p>
+              <div className="mt-6 h-px w-20 bg-gradient-to-r from-transparent via-gold-400/70 to-transparent" />
+            </article>
+          ))}
         </div>
       </div>
     </section>
   );
 }
+
 

@@ -1,55 +1,82 @@
 const services = [
   {
-    title: 'Tax Preparation and Planning',
-    description: 'Taxes can be a difficult and time-consuming task, but it doesn\'t have to be. Steven Phillips CPA makes it effortless, from start to finish.',
-    icon: '📊',
+    title: 'Tax Preparation & Planning',
+    description:
+      "Custom tax architecture for individuals, founders, and family offices designed to preserve wealth and ensure you're always four steps ahead.",
+    pillar: 'Strategy',
   },
   {
-    title: 'Sales Tax Remediation and Compliance',
-    description: 'The Wayfair decision of 2019 has created new sales tax requirements for remote sellers. My firm can help remediate past sales tax compliance issues and setup software to automate sales tax collection, remittance and reporting.',
-    icon: '💰',
+    title: 'Sales Tax Remediation',
+    description:
+      'Resolve multistate nexus exposure and Wayfair-era liabilities with thorough reviews, remediation roadmaps, and automated compliance frameworks.',
+    pillar: 'Compliance',
   },
   {
-    title: 'Tax Issues',
-    description: 'From unfiled taxes to tax notices, I can analyze, address, and resolve any tax issues that may arise.',
-    icon: '🔍',
+    title: 'IRS Representation',
+    description:
+      'From notices to complex examinations, receive calm, seasoned advocacy with audit-ready documentation and steady communication.',
+    pillar: 'Advocacy',
   },
   {
-    title: 'Fiduciary Tax Return Preparation',
-    description: 'The IRS requires the filing of fiduciary income tax returns for trusts and estates on Form 1041. Allow me to simplify this process and prepare this complex tax filing.',
-    icon: '📋',
+    title: 'Fiduciary & Trust Filings',
+    description:
+      'Meticulous preparation of fiduciary income tax returns and estate filings, safeguarding legacies with precision and discretion.',
+    pillar: 'Stewardship',
   },
   {
-    title: 'Bookkeeping & Accounting',
-    description: 'Accounting mistakes can throw off your financials, become very costly and increase your IRS audit risk. I can help resolve those issues.',
-    icon: '📚',
+    title: 'Controller-Level Bookkeeping',
+    description:
+      'C-suite caliber monthly financials, reconciliations, and performance dashboards that illuminate decision-ready insights.',
+    pillar: 'Operations',
   },
   {
-    title: 'New Business Ventures',
-    description: 'I provide exceptional guidance for you along your business journey every step of the way.',
-    icon: '🚀',
+    title: 'New Venture Advisory',
+    description:
+      'Entity structuring, cash flow modeling, and tax election planning tailored to launch ambitious concepts with confidence.',
+    pillar: 'Growth',
   },
 ];
 
 export default function Services() {
   return (
-    <section id="services" className="bg-gray-50 section-padding">
-      <div className="container-custom">
-        <h2 className="heading-secondary text-center mb-16">Services</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {services.map((service, index) => (
-            <div
-              key={index}
-              className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 border border-gray-100"
+    <section id="services" className="relative overflow-hidden py-24">
+      <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-gold-500/40 to-transparent" />
+      <div className="absolute inset-0">
+        <div className="absolute bottom-0 left-1/4 h-72 w-72 rounded-full bg-gold-300/10 blur-[120px]" />
+        <div className="absolute -top-20 right-1/3 h-64 w-64 rounded-full bg-gold-400/10 blur-[130px]" />
+      </div>
+
+      <div className="container-custom relative">
+        <div className="mx-auto max-w-4xl text-center">
+          <p className="luxeyebrow">Services</p>
+          <h2 className="mt-4 text-3xl font-semibold text-gold-100 md:text-5xl">A Curated Suite of Expertise</h2>
+          <p className="mx-auto mt-6 max-w-3xl text-lg leading-relaxed text-slate-100/80">
+            Each engagement begins with a discovery session to craft a bespoke roadmap. Explore the disciplines that
+            continually earn the trust of discerning clients across the nation.
+          </p>
+        </div>
+
+        <div className="mt-16 grid gap-8 md:grid-cols-2 xl:grid-cols-3">
+          {services.map((service) => (
+            <article
+              key={service.title}
+              className="group flex h-full flex-col rounded-3xl border border-white/10 bg-white/5 p-8 shadow-[0_30px_80px_rgba(0,0,0,0.35)] transition-all duration-300 hover:-translate-y-2 hover:border-gold-300/50 hover:bg-gold-500/15"
             >
-              <div className="text-4xl mb-4">{service.icon}</div>
-              <h3 className="heading-tertiary mb-4">{service.title}</h3>
-              <p className="text-gray-700 leading-relaxed">{service.description}</p>
-            </div>
+              <span className="luxeyebrow inline-flex w-fit items-center rounded-full border border-white/10 bg-white/5 px-4 py-1 tracking-[0.5em] text-gold-200/90">
+                {service.pillar}
+              </span>
+              <h3 className="mt-6 font-serif text-2xl text-gold-100">{service.title}</h3>
+              <p className="mt-5 text-base leading-relaxed text-slate-100/85">{service.description}</p>
+              <div className="mt-8 flex items-center gap-3 text-xs uppercase tracking-[0.4em] text-gold-200/80 opacity-0 transition-all duration-300 group-hover:opacity-100">
+                <span className="h-px flex-1 bg-gradient-to-r from-transparent via-gold-300/70 to-transparent" />
+                Signature Service
+              </div>
+            </article>
           ))}
         </div>
       </div>
     </section>
   );
 }
+
 
