@@ -2,37 +2,37 @@ const services = [
   {
     title: 'Tax Preparation & Planning',
     description:
-      "Custom tax architecture for individuals, founders, and family offices designed to preserve wealth and ensure you're always four steps ahead.",
+      'Tax strategies for individuals, founders, and family offices focused on preserving wealth and maintaining compliance.',
     pillar: 'Strategy',
   },
   {
     title: 'Sales Tax Remediation',
     description:
-      'Resolve multistate nexus exposure and Wayfair-era liabilities with thorough reviews, remediation roadmaps, and automated compliance frameworks.',
+      'Address multistate nexus obligations with detailed reviews, remediation plans, and automation support.',
     pillar: 'Compliance',
   },
   {
     title: 'IRS Representation',
     description:
-      'From notices to complex examinations, receive calm, seasoned advocacy with audit-ready documentation and steady communication.',
+      'Navigate notices and examinations with organized documentation, steady communication, and clear next steps.',
     pillar: 'Advocacy',
   },
   {
     title: 'Fiduciary & Trust Filings',
     description:
-      'Meticulous preparation of fiduciary income tax returns and estate filings, safeguarding legacies with precision and discretion.',
+      'Preparation of fiduciary income tax returns and estate filings with careful attention to evolving requirements.',
     pillar: 'Stewardship',
   },
   {
     title: 'Controller-Level Bookkeeping',
     description:
-      'C-suite caliber monthly financials, reconciliations, and performance dashboards that illuminate decision-ready insights.',
+      'Monthly financial statements, reconciliations, and dashboards that give leadership the clarity they need.',
     pillar: 'Operations',
   },
   {
     title: 'New Venture Advisory',
     description:
-      'Entity structuring, cash flow modeling, and tax election planning tailored to launch ambitious concepts with confidence.',
+      'Entity formation, cash flow planning, and tax elections to help new ventures launch on solid footing.',
     pillar: 'Growth',
   },
 ];
@@ -49,10 +49,10 @@ export default function Services() {
       <div className="container-custom relative">
         <div className="mx-auto max-w-4xl text-center">
           <p className="luxeyebrow">Services</p>
-          <h2 className="mt-4 text-3xl font-semibold text-gold-100 md:text-5xl">A Curated Suite of Expertise</h2>
+          <h2 className="mt-4 text-3xl font-semibold text-gold-100 md:text-5xl">Comprehensive Services</h2>
           <p className="mx-auto mt-6 max-w-3xl text-lg leading-relaxed text-slate-100/80">
-            Each engagement begins with a discovery session to craft a bespoke roadmap. Explore the disciplines that
-            continually earn the trust of discerning clients across the nation.
+            Every engagement starts with a focused discovery session. Explore the services available to support your
+            accounting and tax objectives.
           </p>
         </div>
 
@@ -69,7 +69,7 @@ export default function Services() {
               <p className="mt-5 text-base leading-relaxed text-slate-100/85">{service.description}</p>
               <div className="mt-8 flex items-center gap-3 text-xs uppercase tracking-[0.4em] text-gold-200/80 opacity-0 transition-all duration-300 group-hover:opacity-100">
                 <span className="h-px flex-1 bg-gradient-to-r from-transparent via-gold-300/70 to-transparent" />
-                Signature Service
+                Core Service
               </div>
             </article>
           ))}

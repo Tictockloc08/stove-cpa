@@ -8,29 +8,29 @@ export default function AboutFirm() {
 
       <div className="container-custom relative">
         <div className="mx-auto max-w-5xl text-center">
-          <p className="luxeyebrow">A Signature Practice</p>
+          <p className="luxeyebrow">About the Practice</p>
           <h2 className="mt-4 text-3xl font-semibold text-gold-100 md:text-5xl">
-            Tailored Counsel. Elevated Confidence.
+            Tailored Counsel. Dependable Results.
           </h2>
           <p className="mx-auto mt-6 max-w-3xl text-lg leading-relaxed text-slate-100/80">
-            From high-net-worth individuals to emerging enterprises, Stephen D. Phillips, CPA provides concierge tax and
-            accounting services that prioritize clarity, responsiveness, and lasting partnerships.
+            From high-net-worth individuals to emerging enterprises, Stephen D. Phillips, CPA provides personalized tax
+            and accounting services that prioritize clarity, responsiveness, and lasting partnerships.
           </p>
         </div>
 
         <div className="mt-16 grid gap-8 md:grid-cols-3">
           {[
             {
-              title: 'Remote-First & Discreet',
-              copy: 'Virtual consultations, encrypted document handling, and secure client portals keep your financial story protected.',
+              title: 'Flexible & Confidential',
+              copy: 'Virtual consultations, secure document handling, and clear communication keep your financial information protected.',
             },
             {
               title: 'Industry Depth',
-              copy: 'Specialized insight for real estate, start-ups, professional services, and closely held businesses navigating complex tax climates.',
+              copy: 'Focused insight for real estate, start-ups, professional services, and closely held businesses navigating complex obligations.',
             },
             {
               title: 'Outcome Focused',
-              copy: 'Proactive planning and strategic reviews designed to preserve capital, mitigate risk, and unlock growth.',
+              copy: 'Proactive planning and regular reviews designed to preserve capital, manage risk, and support growth.',
             },
           ].map((item) => (
             <article

@@ -16,18 +16,16 @@ export default function AboutMrPhillips() {
         <div className="mt-16 grid gap-12 lg:grid-cols-[1.05fr_1fr]">
           <div className="rounded-[2.5rem] border border-white/10 bg-white/5 p-12 shadow-[0_30px_90px_rgba(0,0,0,0.45)] backdrop-blur-xl">
             <p className="text-lg leading-relaxed text-slate-100/85">
-              Stephen D. Phillips, CPA, Enrolled Agent, and holder of dual master&apos;s degrees, boasts an illustrious career
-              marked by senior audit leadership at EY, Noble Street Advisors, and Thompson Greenspon, complemented by
-              executive finance roles at Expovision, Compu Dynamics, and Avis Budget Group. Drawing from this elite
-              foundation, he now helms a bespoke boutique CPA firm, where discerning luxury clients are afforded
-              unparalleled concierge service, bespoke financial strategies, and discreet counsel to safeguard and amplify
-              their sophisticated wealth aspirations.
+              Stephen D. Phillips, CPA, is an Enrolled Agent with dual master&apos;s degrees whose experience spans senior
+              audit leadership at EY, Noble Street Advisors, and Thompson Greenspon alongside finance roles with Expovision,
+              Compu Dynamics, and Avis Budget Group. The combination gives him practical insight into complex assurance
+              work and the operational needs of growing organizations.
             </p>
             <p className="mt-6 text-lg leading-relaxed text-slate-100/80">
-              Clients of distinction value Stephen&apos;s refined approach: instantaneous responsiveness, exclusive access, and
-              anticipatory guidance attuned to their dynamic lifestyles and ambitions. From masterminding intricate estate
-              and trust architectures to navigating high-stakes corporate expansions with impeccable governance, Stephen
-              remains an unwavering guardian of each client&apos;s visionary legacy.
+              Today Stephen leads his own boutique CPA firm, providing responsive service, direct access, and thoughtful
+              guidance for clients navigating significant financial decisions. Whether supporting estate and trust
+              structures or advising on corporate expansion, he focuses on clear communication and well-documented
+              recommendations.
             </p>
             <div className="mt-10 flex flex-wrap items-center gap-6 text-sm uppercase tracking-[0.35em] text-white/60">
               <span className="rounded-full border border-white/15 px-4 py-2">Licensed in CA & VA</span>
@@ -36,7 +34,7 @@ export default function AboutMrPhillips() {
             </div>
             <div className="mt-10">
               <a href="/#contact" className="btn-secondary">
-                Arrange a Private Consultation
+                Request a Consultation
               </a>
             </div>
           </div>

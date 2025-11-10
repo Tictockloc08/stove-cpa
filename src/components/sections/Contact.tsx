@@ -8,23 +8,23 @@ export default function Contact() {
 
       <div className="container-custom relative">
         <div className="mx-auto max-w-3xl text-center">
-          <p className="luxeyebrow">Private Client Access</p>
+          <p className="luxeyebrow">Get in Touch</p>
           <h2 className="mt-4 text-3xl font-semibold text-gold-100 md:text-5xl">
-            Begin Your Confidential Consultation
+            Connect with Stephen D. Phillips, CPA
           </h2>
           <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-slate-100/80">
-            Connect directly with Stephen D. Phillips, CPA to discuss bespoke accounting, tax counsel, and advisory support.
-            Responses are prioritized within one business day.
+            Reach out to discuss accounting, tax planning, or advisory needs. Messages receive a response within one
+            business day.
           </p>
         </div>
 
         <div className="mt-16 grid gap-8 md:grid-cols-2">
           {[
             {
-              label: 'Studio Location',
+              label: 'Office Location',
               value: 'San Diego, CA',
               href: null,
-              hint: 'Available for private appointments upon request',
+              hint: 'In-person meetings available by appointment',
             },
             {
               label: 'Direct Line',
@@ -33,16 +33,16 @@ export default function Contact() {
               hint: 'Monday – Friday, 9am to 6pm PST',
             },
             {
-              label: 'Client Concierge',
+              label: 'Email',
               value: 'stevephillips825@gmail.com',
               href: 'mailto:stevephillips825@gmail.com',
               hint: 'Secure document exchange arranged after introduction',
             },
             {
-              label: 'Schedule a Consultation',
-              value: 'Book An Appointment →',
+              label: 'Schedule',
+              value: 'Book a Consultation →',
               href: '/book-appointment',
-              hint: 'Virtual & in-person consultations tailored to you',
+              hint: 'Virtual and in-person options available',
             },
           ].map((item) => (
             <article

@@ -12,10 +12,10 @@ export default function Footer() {
           <div>
             <p className="luxeyebrow">Stephen D. Phillips, CPA</p>
             <h3 className="mt-4 font-serif text-3xl text-gold-100">
-              Discretion. Strategy. Enduring financial clarity.
+              Trusted tax and accounting guidance for complex needs.
             </h3>
-            <p className="mt-6 max-w-md text-sm uppercase tracking-[0.35em] text-white/60">
-              Serving discerning individuals, founders, and fiduciaries across the United States.
+            <p className="mt-6 max-w-md text-sm text-white/70 leading-relaxed">
+              Partnering with individuals, founders, and fiduciaries across the United States.
             </p>
           </div>
 
