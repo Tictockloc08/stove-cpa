@@ -30,8 +30,8 @@ export default function Hero() {
             <span className="block font-light text-white/80">for individuals and businesses</span>
           </h1>
           <p className="mx-auto mt-8 max-w-2xl text-lg leading-relaxed text-slate-100/80 md:text-xl">
-            Stephen D. Phillips, CPA partners with clients to deliver tailored tax planning, accounting oversight, and
-            fiduciary guidance—providing the reliability leaders expect at every stage.
+            Stephen D. Phillips, CPA partners with clients to deliver tailored tax solutions and accounting oversight—
+            providing the dependability you deserve from your advisor.
           </p>
 
           <div className="mt-12 flex flex-col items-center justify-center gap-4 sm:flex-row">

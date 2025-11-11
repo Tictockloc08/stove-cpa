@@ -18,7 +18,7 @@ export default function AboutFirm() {
             in-person consultations by appointment.
           </p>
           <p className="mx-auto mt-6 max-w-3xl text-lg leading-relaxed text-slate-100/80">
-            The practice focuses on individual returns, start-ups, self-employed professionals, and businesses with fewer
+            The practice focuses on individual tax returns, start-ups, self-employed professionals, and businesses with fewer
             than 100 employees. Every engagement balances high-quality execution with cost-conscious rates so clients save
             time, reduce risk, and remain confident in their financial position.
           </p>
