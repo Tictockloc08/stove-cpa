@@ -1,13 +1,25 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Hero() {
   return (
     <section className="relative overflow-hidden">
       <div className="absolute inset-0">
-        <div className="absolute -top-40 right-0 h-[28rem] w-[28rem] rounded-full bg-gold-400/15 blur-[140px]" />
+        <Image
+          src="/images/hero-sunset.jpg"
+          alt="Sunset over greenspace"
+          fill
+          priority
+          quality={85}
+          className="object-cover brightness-[0.55] saturate-110"
+        />
+        <div className="absolute inset-0 bg-gradient-to-br from-slate-950/92 via-slate-950/85 to-slate-950/94" />
+      </div>
+
+      <div className="pointer-events-none absolute inset-0">
+        <div className="absolute -top-40 right-0 h-[28rem] w-[28rem] rounded-full bg-gold-400/10 blur-[140px]" />
         <div className="absolute -left-24 top-20 h-[22rem] w-[22rem] rounded-full bg-gold-200/10 blur-[120px]" />
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_20%,rgba(248,231,190,0.08),rgba(5,7,11,0))]" />
-        <div className="absolute inset-0 bg-gradient-to-br from-slate-950 via-slate-950/95 to-slate-950/98" />
       </div>
 
       <div className="relative container-custom section-padding">
