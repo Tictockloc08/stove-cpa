@@ -16,15 +16,14 @@ export default function AboutMrPhillips() {
         <div className="mt-16 grid gap-12 lg:grid-cols-[1.05fr_1fr]">
           <div className="rounded-[2.5rem] border border-white/10 bg-white/5 p-12 shadow-[0_30px_90px_rgba(0,0,0,0.45)] backdrop-blur-xl">
             <p className="text-lg leading-relaxed text-slate-100/85">
-              Stephen D. Phillips, CPA, is an Enrolled Agent with dual master&apos;s degrees and former Big Four senior
-              accountant with EY. His leadership spans Noble Street Advisors, Thompson Greenspon, and finance roles with
-              Expovision, Compu Dynamics, and Avis Budget Group—experience that blends technical audit depth with daily
-              operational insight.
+              Stephen D. Phillips is a CPA and former Big Four senior accountant with EY. Over the course of his career he
+              has partnered with business owners, CFOs, and controllers across organizations of every size, supporting
+              their accounting, assurance, and operational needs with steady guidance.
             </p>
             <p className="mt-6 text-lg leading-relaxed text-slate-100/80">
-              Stephen has partnered with business owners, CFOs, controllers, and high-net-worth clients to navigate complex
-              accounting and tax requirements. Today he leads his own boutique firm, offering responsive service, direct
-              access, and practical guidance—driven by a commitment to see clients succeed and move forward with confidence.
+              Stephen also brings hands-on experience serving high-net-worth clients and their companies, providing tax and
+              accounting services tailored to their personal and business goals. His passion for helping clients succeed
+              drives the responsive service, direct access, and practical perspective he brings to every engagement.
             </p>
             <div className="mt-10 flex flex-wrap items-center gap-6 text-sm uppercase tracking-[0.35em] text-white/60">
               <span className="rounded-full border border-white/15 px-4 py-2">Licensed in CA & VA</span>
