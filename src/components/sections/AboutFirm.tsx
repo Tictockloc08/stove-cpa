@@ -36,7 +36,7 @@ export default function AboutFirm() {
             },
             {
               title: 'Outcome Focused',
-              copy: 'Practical planning and ongoing reviews designed to streamline operations, control cost, and support growth.',
+              copy: 'Exceptional service provided at the highest level of integrity, allowing you to rest easily knowing you and your business are being delivered a fully inclusive product.',
             },
           ].map((item) => (
             <article

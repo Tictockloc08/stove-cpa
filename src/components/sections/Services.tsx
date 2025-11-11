@@ -2,7 +2,7 @@ const services = [
   {
     title: 'Tax Preparation & Future Planning',
     description:
-      'Full-service preparation and proactive planning so individuals and companies can stay compliant while looking ahead with confidence.',
+      'Full-service preparation and proactive planning so individuals and businesses can stay compliant while looking ahead with confidence.',
     pillar: 'Strategy',
   },
   {
