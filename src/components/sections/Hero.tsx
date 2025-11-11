@@ -11,9 +11,10 @@ export default function Hero() {
           fill
           priority
           quality={85}
-          className="object-cover brightness-[0.55] saturate-110"
+          className="object-cover object-[center_70%] sm:object-[center_60%] brightness-[0.6] saturate-105 blur-[2px]"
         />
-        <div className="absolute inset-0 bg-gradient-to-br from-slate-950/92 via-slate-950/85 to-slate-950/94" />
+        <div className="absolute inset-0 bg-gradient-to-b from-slate-950/75 via-slate-950/82 to-slate-950/95" />
+        <div className="absolute inset-0 bg-gradient-to-t from-slate-950/92 via-transparent to-transparent" />
       </div>
 
       <div className="pointer-events-none absolute inset-0">
