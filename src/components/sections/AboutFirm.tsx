@@ -13,8 +13,14 @@ export default function AboutFirm() {
             Tailored Counsel. Dependable Results.
           </h2>
           <p className="mx-auto mt-6 max-w-3xl text-lg leading-relaxed text-slate-100/80">
-            From high-net-worth individuals to emerging enterprises, Stephen D. Phillips, CPA provides personalized tax
-            and accounting services that prioritize clarity, responsiveness, and lasting partnerships.
+            Stephen D. Phillips, CPA delivers full-service accounting support—from business and individual tax services to
+            comprehensive bookkeeping and outsourced accounting solutions. Remote engagements are available nationwide with
+            in-person consultations by appointment.
+          </p>
+          <p className="mx-auto mt-6 max-w-3xl text-lg leading-relaxed text-slate-100/80">
+            The practice focuses on individual returns, start-ups, self-employed professionals, and businesses with fewer
+            than 100 employees. Every engagement balances high-quality execution with cost-conscious rates so clients save
+            time, reduce risk, and remain confident in their financial position.
           </p>
         </div>
 
@@ -22,15 +28,15 @@ export default function AboutFirm() {
           {[
             {
               title: 'Flexible & Confidential',
-              copy: 'Virtual consultations, secure document handling, and clear communication keep your financial information protected.',
+              copy: 'Virtual delivery with secure document handling keeps your financial information protected while preserving your schedule.',
             },
             {
               title: 'Industry Depth',
-              copy: 'Focused insight for real estate, start-ups, professional services, and closely held businesses navigating complex obligations.',
+              copy: 'Focused insight for start-ups, closely held businesses, and self-employed professionals navigating everyday and complex obligations.',
             },
             {
               title: 'Outcome Focused',
-              copy: 'Proactive planning and regular reviews designed to preserve capital, manage risk, and support growth.',
+              copy: 'Practical planning and ongoing reviews designed to streamline operations, control cost, and support growth.',
             },
           ].map((item) => (
             <article

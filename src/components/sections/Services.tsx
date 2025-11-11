@@ -1,38 +1,38 @@
 const services = [
   {
-    title: 'Tax Preparation & Planning',
+    title: 'Tax Preparation & Future Planning',
     description:
-      'Tax strategies for individuals, founders, and family offices focused on preserving wealth and maintaining compliance.',
+      'Full-service preparation and proactive planning so individuals and companies can stay compliant while looking ahead with confidence.',
     pillar: 'Strategy',
   },
   {
-    title: 'Sales Tax Remediation',
+    title: 'Tax Issues',
     description:
-      'Address multistate nexus obligations with detailed reviews, remediation plans, and automation support.',
-    pillar: 'Compliance',
+      'Evaluation of prior filings, amendments, and notices to determine next steps and resolve outstanding tax questions efficiently.',
+    pillar: 'Resolution',
   },
   {
-    title: 'IRS Representation',
+    title: 'Bookkeeping & Outsourced Accounting',
     description:
-      'Navigate notices and examinations with organized documentation, steady communication, and clear next steps.',
-    pillar: 'Advocacy',
-  },
-  {
-    title: 'Fiduciary & Trust Filings',
-    description:
-      'Preparation of fiduciary income tax returns and estate filings with careful attention to evolving requirements.',
-    pillar: 'Stewardship',
-  },
-  {
-    title: 'Controller-Level Bookkeeping',
-    description:
-      'Monthly financial statements, reconciliations, and dashboards that give leadership the clarity they need.',
+      'Bank reconciliations, vendor and receivables management, payroll processing, and monthly close procedures handled with controller-level oversight.',
     pillar: 'Operations',
   },
   {
-    title: 'New Venture Advisory',
+    title: 'Sales & Use Tax',
     description:
-      'Entity formation, cash flow planning, and tax elections to help new ventures launch on solid footing.',
+      'Monthly calculations and filings that keep sales and use tax compliant across jurisdictions while reducing administrative strain.',
+    pillar: 'Compliance',
+  },
+  {
+    title: 'Internal Controls',
+    description:
+      'Assessment and refinement of control structures so risks are mitigated and reporting remains accurate, timely, and audit-ready.',
+    pillar: 'Governance',
+  },
+  {
+    title: 'Start-Up Advisory',
+    description:
+      'Entity formation guidance, cash-flow planning, and early-stage advisory to help emerging businesses make informed decisions from day one.',
     pillar: 'Growth',
   },
 ];

@@ -24,14 +24,14 @@ export default function Hero() {
 
       <div className="relative container-custom section-padding">
         <div className="mx-auto max-w-4xl text-center">
-          <p className="luxeyebrow">Boutique Accounting Practice</p>
+          <p className="luxeyebrow">A Trusted Accountant</p>
           <h1 className="mt-6 text-4xl font-semibold text-gold-100 md:text-6xl">
             Trusted Accounting Leadership
-            <span className="block font-light text-white/80">for forward-looking organizations</span>
+            <span className="block font-light text-white/80">for individuals and businesses</span>
           </h1>
           <p className="mx-auto mt-8 max-w-2xl text-lg leading-relaxed text-slate-100/80 md:text-xl">
-            Stephen D. Phillips, CPA delivers tailored tax planning, accounting oversight, and fiduciary guidance with the
-            discretion and clarity executive teams rely on.
+            Stephen D. Phillips, CPA partners with clients to deliver tailored tax planning, accounting oversight, and
+            fiduciary guidance—providing the reliability leaders expect at every stage.
           </p>
 
           <div className="mt-12 flex flex-col items-center justify-center gap-4 sm:flex-row">
