@@ -30,7 +30,7 @@ export default function Contact() {
               label: 'Direct Line',
               value: '(703) 297-6370',
               href: 'tel:703-297-6370',
-              hint: 'Monday – Friday, 9am to 6pm PST',
+              hint: 'Monday – Friday, 9am to 6pm PST • Saturday (Tax Season Only), 10am to 6pm PST',
             },
             {
               label: 'Email',

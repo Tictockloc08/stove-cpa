@@ -15,7 +15,7 @@ export default function Footer() {
               Trusted tax and accounting guidance for complex needs.
             </h3>
             <p className="mt-6 max-w-md text-sm text-white/70 leading-relaxed">
-              Partnering with individuals, founders, and fiduciaries across the United States.
+              Partnering with individuals and founders across the United States.
             </p>
           </div>
 

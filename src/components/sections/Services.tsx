@@ -14,7 +14,7 @@ const services = [
   {
     title: 'Bookkeeping & Outsourced Accounting',
     description:
-      'Bank reconciliations, vendor and receivables management, payroll processing, and monthly close procedures handled with controller-level oversight.',
+      'Bank reconciliations, vendor invoice, payables and receivables management, payroll processing, and monthly close procedures handled with controller-level oversight.',
     pillar: 'Operations',
   },
   {

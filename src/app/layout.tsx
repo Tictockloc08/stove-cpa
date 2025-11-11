@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 const playfair = Playfair_Display({ subsets: ['latin'], variable: '--font-playfair' });
 
 export const metadata: Metadata = {
-  title: 'Stephen D. Phillips, CPA - A Trusted Tax Accountant',
+  title: 'Stephen D. Phillips, CPA - A Trusted Accountant',
   description: 'Premier accounting firm serving individuals and businesses. Tax preparation, planning, and comprehensive financial services.',
 };
 

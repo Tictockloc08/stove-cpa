@@ -26,8 +26,8 @@ export default function AboutMrPhillips() {
               drives the responsive service, direct access, and practical perspective he brings to every engagement.
             </p>
             <div className="mt-10 flex flex-wrap items-center gap-6 text-sm uppercase tracking-[0.35em] text-white/60">
-              <span className="rounded-full border border-white/15 px-4 py-2">Licensed in CA & VA</span>
-              <span className="rounded-full border border-white/15 px-4 py-2">Trusted Advisor Since 2009</span>
+              <span className="rounded-full border border-white/15 px-4 py-2">Licensed in CA</span>
+              <span className="rounded-full border border-white/15 px-4 py-2">Trusted Advisor Since 2017</span>
               <span className="rounded-full border border-white/15 px-4 py-2">Virtual & In-Person</span>
             </div>
             <div className="mt-10">
