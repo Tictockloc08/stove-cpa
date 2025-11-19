@@ -64,11 +64,16 @@ export default function Footer() {
         </div>
 
         <div className="mt-12 border-t border-white/10 pt-8 text-center text-xs uppercase tracking-[0.35em] text-white/40">
-          <p>&copy; {new Date().getFullYear()} Stephen D. Phillips, CPA. All Rights Reserved.</p>
-          <p className="mt-3">
-            <Link href="/privacy-policy" className="transition-colors hover:text-gold-200">
-              Privacy Policy
-            </Link>
+          <p>
+            Web Design by{' '}
+            <a
+              href="https://www.leopennydigitalsolutions.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition-colors hover:text-gold-200"
+            >
+              LeoPenny Digital Solutions, LLC
+            </a>
           </p>
         </div>
       </div>
