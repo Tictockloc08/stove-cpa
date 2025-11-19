@@ -38,12 +38,6 @@ export default function Contact() {
               href: 'mailto:stevephillips825@gmail.com',
               hint: 'Secure document exchange arranged after introduction',
             },
-            {
-              label: 'Schedule',
-              value: 'Book a Consultation →',
-              href: '/book-appointment',
-              hint: 'Virtual and in-person options available',
-            },
           ].map((item) => (
             <article
               key={item.label}

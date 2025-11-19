@@ -35,9 +35,6 @@ export default function Hero() {
           </p>
 
           <div className="mt-12 flex flex-col items-center justify-center gap-4 sm:flex-row">
-            <Link href="/book-appointment" className="btn-primary">
-              Schedule a Consultation
-            </Link>
             <Link
               href="/#services"
               className="btn-secondary border-white/20 bg-white/5 text-white hover:bg-white/10 hover:text-gold-100"
